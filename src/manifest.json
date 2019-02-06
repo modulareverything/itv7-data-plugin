@@ -1,0 +1,19 @@
+{
+  "name": "ITV7 Data",
+  "compatibleVersion": 3,
+  "suppliesData": true,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "script": "./itv7-data.js",
+      "handlers": {
+        "actions": {
+          "Startup": "onStartUp",
+          "Shutdown": "onShutDown",
+          "SupplyEntrants": "onSupplyEntrants"
+        }
+      }
+    }
+  ]
+}
